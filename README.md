@@ -1,5 +1,10 @@
 # Unity-Bug-Report-Animation-IN-42067
 
+**Unity has stated that this was intentional by design.**
+
+> RESOLUTION NOTE:
+> Since animation writes back at every frame, it's expected that you won't be able to change the value.
+
 ## About this issue
 
 The property of a component becomes read-only after it is bound to a `PropertyStreamHandle`.
